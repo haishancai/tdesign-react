@@ -1,6 +1,7 @@
 name: 反馈 Bug
 description: 通过 github 模板进行 Bug 反馈。
 title: "[组件名称] 描述问题的标题"
+labels: [🐞 bug,🧐 unconfirmed]
 body:
   - type: markdown
     attributes:
@@ -51,7 +52,7 @@ body:
     id: frameworkVersion
     attributes:
       label: 框架版本
-      placeholder: Vue(3.2.0)
+      placeholder: React(18.2.0)
 
   - type: input
     id: browsersVersion
